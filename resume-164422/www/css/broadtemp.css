@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.leftblock {
+    text-align: center;
+    position: fixed;
+    top: 140px;
+    width: 100px;
+    color: white;
+}
+.rightblock {
+    text-align: center;
+    position: fixed;
+    width: 100px;
+    color: white;
+    top: 150px;
+    right: 0px;
+}
+a:link {
+    color:#4db8ff; 
+    text-decoration: none;
+}
+a:visited {
+    color:#00b300;
+    text-decoration: none;
+}
+a:hover {
+    color: #BA55D3;
+    font-weight: bold;
+}
+.rightblock h2 {
+    font-size: 24px;
+}
+.inTextBlock {
+    display: block;
+    height: 50px;
+    width: 100px;
+}
+.mainContent {
+    border: 3px solid lightsalmon;
+	border-radius: 12px;
+	padding: 0.5em;
+	margin-left: 110px;
+	margin-right: 90px;
+}
+.validation {
+    border: 0;
+    width: 88px;
+    height: 31px
+}
+.quote p {
+    font-family: cursive;
+    font-size: 12px;
+}
+.validateLinks {
+    display: flex;
+    justify-content: center;
+}
