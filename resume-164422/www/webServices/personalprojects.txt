@@ -1,0 +1,14 @@
+<section>
+    <h1 id="title">Other Experience</h1>
+    <span class="inTextBlock"></span>
+    <h2>Teaching English in South Korea</h2>
+    <p>
+        The first time I applied to the University of Washington Seattle, I wasn't accepted. I felt very defeated. So, after a year of working, I moved to South Korea and taugh English over there for two years. *Further elaboration*   
+    </p>
+    <h2>Restaurant Experience</h2>
+    <p>
+        I got my first job in a restaurant when I was 16 years old. Since then, I have supported myself financially through all of my endeavors and experiences. *Further elaboration*    
+    </p>
+    <span class="inTextBlock"></span>
+    <p><span class="quote">"Nothing in life get's easier. We only train ourselves how to overcome."</span></p>
+</section>

@@ -1,24 +1,32 @@
 body {
-    background-color: black;
+    background: radial-gradient(circle, #005266, #e0e0eb);
     color: white;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: 1px 1px #000000;
 }
 .leftblock {
     text-align: center;
     position: fixed;
     top: 140px;
-    width: 100px;
+    width: 30%;
     color: white;
 }
 .rightblock {
     text-align: center;
     position: fixed;
-    width: 100px;
+    width: 30%;
     color: white;
     top: 150px;
     right: 0px;
+}
+.mainContent {
+    border: 3px solid lightsalmon;
+	border-radius: 12px;
+	padding: 0.5em;
+    margin: auto;
+    width: 40%;
 }
 a:link {
     color:#4db8ff; 
@@ -32,20 +40,13 @@ a:hover {
     color: #BA55D3;
     font-weight: bold;
 }
-.rightblock h2 {
-    font-size: 24px;
-}
 .inTextBlock {
     display: block;
     height: 50px;
     width: 100px;
 }
-.mainContent {
-    border: 3px solid lightsalmon;
-	border-radius: 12px;
-	padding: 0.5em;
-	margin-left: 110px;
-	margin-right: 90px;
+.rightblock h2 {
+    font-size: 24px;
 }
 .validation {
     border: 0;

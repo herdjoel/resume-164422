@@ -1,0 +1,30 @@
+<section>
+    <h1 id="title">Cover Letter</h1>
+    <p>
+        It is a pleasure to make your acquaintance, and I thank you whole-heartedly for taking the time to look through my portfolio. I am sincerely honored to have your time, and hope that this site can be a keyhole into, not only my industry education and experience, but also to who I am as a person. I would like to extend an invitation to you, to join me as I tell my story.
+    </p>
+    <p>
+        I am currently an undergraduate Geography Major at the <a href="uws.html">University of Washington in Seattle</a>. Since March 2017 I have also been working as a GIS (Geographic Information Systems) Software Developer Intern for the <a href="cos.html">City of Seattle</a>.
+    </p>
+    <p>   
+        I am experienced in developing front and back-end microservices using HTML/CSS, JavaScript, Python, Java, SQL, JSON, and Shell/Bash.
+    </p>
+    <h3>There are a few important qualities to my character I would like you to know about:</h3>
+    <p>
+        1. I know how to work independently. Between the City of Seattle, Concur, and the many non-major CS classes I've taken and UW, I have learned how to design, deploy, and test various programs and microservices I have written myself. I have been faced with all kinds of technical problems and am very well practiced in reading documentation and forums to find answers. 
+    </p>
+    <p>
+        2. I know how to work with a team. I understand how to insert myself into the dynamics of any team. I've contributed on all levels on various projects. I have never been unable to finish a project due to my ability to work with other team members.
+    </p>
+    <p>
+        3. I know when I've done my best work. Whatever I do, I take my time to do the best work I can possibly do. Whenever I set out to do a project, I set S.M.A.R.T. goals to achieve throughout the timeframe of the project. This allows me to make continuous progress and approach every project in a structured manner, allowing me to deliver the highest quality product I can. 
+    </p>
+    <p>
+        Though I am young and have minimal experience, I am an ambitious hard worker. I aspire to deliver high quality, easy-to-use, scalable solutions. I love a good challenge, and solving complex problems. 
+    </p>
+    <p>
+        Thank you again for taking the time to look through my portfolio, and I hope to exceed your expectations!
+    </p>
+    <span class="inTextBlock"></span>
+    <p><span class="quote">"Nothing in life get's easier. We only train ourselves how to overcome."</span></p>
+</section>

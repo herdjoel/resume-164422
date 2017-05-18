@@ -1,10 +1,38 @@
-Hello!
+Notes for myself:
 
-Everything should run through index.html. 
-The other html/css files are all linked as extensions from
-index.html. But they do contain code that meets the specs for
-the weekly assignment! 
+TODO: 
 
-Thank you for dealing with my growing project.
+minimize DOM elements in index.html (modify elements before making them un-hidden)
+simplify app.css 
+try again?
 
--Joel Herd
+learn how to use window.requestAnimationFrame() in order to separate read/write functionality in Javascript
+fix navigation width
+1. Edit internal text/style (Concur Page)
+	*Expense Middle Tier*
+	DevOps? (Work with Back-End Teams when a database was down, due to updates, upgrades, and/or if a scheduled process didn't run successfully, and keep the EMT Developers updated on the workings)
+	clarify chronological order?
+	for projects add a "Challenges" portion
+	"by joining tables and cross referencing"
+2. make it searchable?
+3. consolidate html tags, clean up js
+4. Verify all html/css/javascript
+5. WebGL? D3?
+6. Include database cert into website, check resume for other things
+7. API?
+8. Link all pictures locally?
+9. Add puzzle to personal projects page with *SetBoard and RefreshBoard buttons
+10. Make readme an actual readme?
+11. Use Docker?
+13. upload to herdjoel.com
+
+
+11. develop website in jango
+10. remake the pokemon game, except with some other kind of something?
+3. Add Point Rotation Automation to resume
+4. Add reverse engineered FME Desktop by Safe Solutions to resume
+get pictures for orbit display 
+
+Web Application Development Experience (HTML/CSS/Javascript/Ajax)
+Designing Web Services (Php/JSON)
+Script writing Experience (Python/SQL)

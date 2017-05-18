@@ -1,78 +1,116 @@
 <!DOCTYPE html>
 
-<!-- Created by Joel Herd; last edited 4.8.2017 --> 
+<!-- Created by Joel Herd; last edited 5.6.2017 --> 
 
-<!-- This is an online resume/portfolio I would like to work on throughout the quarter. I hope to add to this website so that by the end of the quarter I will have an interactive resume/portfolio i can be proud of. --> 
+<!-- Description: This is an online resume/portfolio I would like to work on throughout the quarter. I hope to add to this website so that by the end of the quarter I will have an interactive resume/portfolio i can be proud of. 
+
+	Found on: www.herdjoel.com
+-->
 
 <html lang="en">
-<head>
-	<meta http-equiv='Content-Type' content='text/html;charset=utf-8'>
-	<meta name="author" content="Joel Herd" />
-	<meta name="description"
-	 content="NEED DESCRIPTION" />
-	<meta name="keywords"
-	 content="web programming, html, css, joel herd, university of washington, AND MORE" />
-	<link type="text/css" rel="stylesheet" href="css/index.css"/>
-    <link type="text/css" rel="stylesheet" href="css/broadtemp.css"/>
-	<title>Joel Herd's Portfolio</title>
-</head>
-<body>
-    <aside>
-        <div class="leftblock">
-            <h2>Welcome to my Portfolio!</h2>
-            <span class="inTextBlock"></span>
-            <p>
-                <a href="index.html">Cover Letter</a><br><br>
-                <a href="uws.html">Univerysity of Washington</a><br><br>
-                <a href="cos.html">City of Seattle</a><br><br>
-                <a href="concur.html">Concur</a><br><br>
-                <a href="miscexp.html">Other Experience</a><br><br>
-            </p>
-        </div>
-    </aside>
-    <aside>
-        <div class="rightblock">
-            <h2>Contact Info:</h2><br>
-            <span class="inTextBlock"></span>
-            <p>
-                <a href="mailto:herdjoel@gmail.com">Email</a><br><br>
-                <a href="www.linkedin.com/in/joel-herd-556139104" target="_blank">LinkedIn</a><br><br>
-            </p>
-        </div>
-    </aside>
-    <div class="mainContent">
-    <section>
-        <h1 id="title">My name is Joel Herd.</h1>
-        <span class="inTextBlock"></span>
-        <p>
-            <span id="hello">Hello!</span> It is a pleasure to make your acquaintance, and I thank you whole-heartedly for taking the time to look through my portfolio. I am sincerely honored to have your time, and hope that this site can be a keyhole into, not only my industry education and experience, but also to who I am as a person. I would like to extend an invitation to you, to join me as I tell my story.
-        </p>
-        <p>
-            I am currently an undergraduate student in the Geography Department at the University of Washington in Seattle. I currently work as a GIS (Geographic Information Systems) Software Developer for the City of Seattle. I first discovered software developing on a whim in my sophomore year at UWS, when one of my friends told me I should give it a try, to see if I like it. I loved it. Since, I haven't been able to turn away from the lure of engaging in software through designing the tapestry on which it exists. There are a few important qualities to my character:
-        </p>
-        <p>
-            1. I know how to work independently. *Explanation*
-        </p>
-        <p>
-            2. I know how to work in a team. *Explanation*
-        </p>
-        <p>
-            3. I know when I've done my best work. *Explanation*
-        </p>
-        <span class="inTextBlock"></span>
-        <p><span class="quote">"Nothing in life get's easier. We only train ourselves how to overcome."</span></p>
-    </section>
-    <footer>
-        <p>
-            <a href="#title">Top of Page</a><hr>
-            <div class="validateLinks">
-                <a id="validatehtml" href="https://webster.cs.washington.edu/validate-html.php" target="_blank"><img class="validation" src="https://webster.cs.washington.edu/images/w3c-html.png" alt="Validate" /></a>
-                <a id="validatecss" href="https://webster.cs.washington.edu/validate-css.php" target="_blank"><img class="validation" src="https://webster.cs.washington.edu/images/w3c-css.png" alt="Validate" /></a>
-            </div>
-    </footer>
-    </div>
-</body>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="images/CITModel.png" type="text/css"/>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" type="text/css" />
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation-flex.min.css" type="text/css" />
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation-rtl.min.css" type="text/css" />
+	    <link rel="stylesheet" href="css/app.css" type="text/css">
+		<title>Joel Herd | Portfolio</title>
+	</head>
+	<body>
+		<div id="loadingScreen">
+			<div class="inTextBlock"></div>
+			<div class="inTextBlock"></div>
+			<h1><em>loading... thank you</em></h1>
+			<div class="inTextBlock"></div>
+		</div>
+		<div id="hiddenTillLoad" class="hidden">
+			<div class="row">
+				<div class="large-12 columns">
+					<h1>Joel G. Herd,<br>GIS Software Developer</h1>
+				</div>
+			</div><hr>
+		    <div id="topSLider" class="row collapse">
+				<div class="large-12 small-12 columns">
+					<div id="CustomSlider">
+						<div><img src="images/ElasticSearch.png" alt="Image"><a>B.A. GIS, Mapping, and Society, University of Washington, Seattle</a></div>
+			      		<div><img src="images/ElasticSearchEndPointData.png" alt="Image"><a>GIS Developer Intern, Information Technology, City of Seattle</a></div>
+			      		<div><img src="images/ElasticSearch.png" alt="Image"><a>Software Dev./Engineer in Test Intern, Concur Technologies, Inc.</a></div>
+			      		<div><img src="images/Jenkins.png" alt="Image"><a>Extracurricular Projects</a></div>
+			      		<div><img src="images/ElasticSearch.png" alt="Image"><a>B.A. GIS, Mapping, and Society, University of Washington, Seattle</a></div>
+			      		<div><img src="images/ElasticSearchEndPointData.png" alt="Image"><a>GIS Software Developer Intern, Information Technology, City of Seattle</a></div>
+		      		</div>
+				</div>
+			</div><hr>
+		    <div class="inTextBlock"></div>
+		    <div id="topControl">
+				<div class="row">
+					<div class="large-12 columns">
+				    	<h2 id="welcomeText"><em>Thank you for visiting! Welcome!</em></h2>
+				    </div>
+				</div>
+				<form id="inputArea" class="hidden">
+					<div class="row collapse">
+						<div class="small-8 small-centered columns">
+							<div class="input-group postfix-round">
+								<input id="enterName" class="input-group-field" type="text" placeholder="First name...">
+								<div class="input-group-button">
+									<input id="enterButton" type="submit" class="button postfix" value="Enter">
+								</div>
+					    	</div>
+				    	</div>
+			    	</div>
+		    	</form>
+		    </div>
+		    
+	    	<div class="row">
+	    		<div id="loadMainContent" class="hidden large-9 large-centered columns">
+	    			<h3>Loading...</h3>
+	    			<img src="images/loading-pikachu.gif" />
+	    		</div>
+	    	</div>
+    		<div class="row">
+				<div id="mainContent" class="large-9 large-centered columns"><br></div>
+	    	</div>
+	    	<div id="enterPortfolio" class="row collapse">
+				<div class="small-12 small-centered medium-6 medium-centered large-4 large-centered columns">
+					<h3>Check out what I'm all about!</h3>
+					<a><h2>Education and Experience</h2></a>
+				</div>
+	    	</div>
+	    	
+	    	<div class="inTextBlock"></div>
+	    	
+	    	<div id="enterProjects" class="row collapse">
+				<div class="small-12 small-centered medium-6 medium-centered large-4 large-centered columns">
+					<h3>Or, feel free to dive into what I do for fun!</h3>
+					<a href="personalprojects.html"><h2>Personal Projects</h2></a>
+				</div>
+	    	</div>
+	    	<div class="row collapse">
+				<div id="bottomNav" class="small-12 small-centered medium-6 medium-centered large-4 large-centered columns">
+					<ul class="hidden menu menu-fancy">
+					    <li class="menu-fancy-option1"><a href="#CustomSlider">About</a></li>
+					    <li class="menu-fancy-option2"><a href="#CustomSlider">Education</a></li>
+					    <li class="menu-fancy-option3"><a href="#CustomSlider">Experience</a></li>
+					    <li class="menu-fancy-option4"><a href="#CustomSlider">Projects</a></li>
+					</ul>
+				</div>
+	    	</div>
+		    <div class="inTextBlock"></div><hr><div class="inTextBlock"></div>
+		    <div id="w3c">
+				<a href="https://webster.cs.washington.edu/validate-html.php">
+					<img src="https://webster.cs.washington.edu/images/w3c-html.png" alt="Valid HTML" /></a>
+				<a href="https://webster.cs.washington.edu/validate-css.php">
+					<img src="https://webster.cs.washington.edu/images/w3c-css.png" alt="Valid CSS" /></a>
+				<a href="https://webster.cs.washington.edu/jslint/?referer">
+					<img src="https://webster.cs.washington.edu/images/w3c-js.png" alt="Valid JS" /></a>
+			</div>
+			<div class="inTextBlock"></div>
+	    </div>
+	    <script src="js/ajax-promise.js" type="text/javascript"></script>
+	    <script src="js/app.js" type="text/javascript"></script>
+	</body>
 </html>
-
-<!-- Created by Joel Herd; last edited 4.8.2017 --> 
-
