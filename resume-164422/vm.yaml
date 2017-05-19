@@ -1,6 +1,6 @@
 resources:
 - type: compute.v1.instance
-  name: vm-my-first-deployment
+  name: vm-latestversion
   properties:
     zone: us-central1-f
     machineType: https://www.googleapis.com/compute/v1/projects/resume-164422/zones/us-central1-f/machineTypes/f1-micro

@@ -12,3 +12,9 @@
     <span class="inTextBlock"></span>
     <p><span class="quote">"Nothing in life get's easier. We only train ourselves how to overcome."</span></p>
 </section>
+<div id="enterProjects" class="row collapse">
+	<div class="small-12 small-centered medium-6 medium-centered large-4 large-centered columns">
+		<h2>Check out what I do in my spare time!</h2>
+		<a href="personalprojects.html"><h2>Personal Projects</h2></a>
+	</div>
+</div>

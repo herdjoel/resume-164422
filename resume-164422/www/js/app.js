@@ -99,7 +99,7 @@
     }
     
     function updateContent(filename) {
-        var filenamePromise = new AjaxGetPromise("webServices/updateContent.php?filename=" + filename);
+        var filenamePromise = new AjaxGetPromise("webServices/" + filename);
         
         filenamePromise
             .then(loadContent)
