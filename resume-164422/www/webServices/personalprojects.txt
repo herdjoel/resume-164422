@@ -3,14 +3,13 @@
     <span class="inTextBlock"></span>
     <h2>Teaching English in South Korea</h2>
     <p>
-        The first time I applied to the University of Washington Seattle, I wasn't accepted. I felt very defeated. So, after a year of working, I moved to South Korea and taugh English over there for two years. *Further elaboration*   
+        The first time I applied to the University of Washington Seattle, I wasn't accepted. I felt very defeated. So, after a year of working three jobs, I moved to South Korea and taugh English for two years. I am not Korean, nor did I have any experience with the language before arriving. But by the time I left, I was fluent in Korean and would like to say I was proficient enough to be able to survive on my own. 
     </p>
     <h2>Restaurant Experience</h2>
     <p>
-        I got my first job in a restaurant when I was 16 years old. Since then, I have supported myself financially through all of my endeavors and experiences. *Further elaboration*    
+        I got my first job in a restaurant when I was 16 years old. Since then, I have supported myself financially through all of my endeavors and experiences. Including my time in South Korea, coming back to UW Seattle and paying my way through school (with help from financial aid), and living on my own in University District, I have paved my own path and sought out my career with my own passions. 
     </p>
     <span class="inTextBlock"></span>
-    <p><span class="quote">"Nothing in life get's easier. We only train ourselves how to overcome."</span></p>
 </section>
 <div id="enterProjects" class="row collapse">
 	<div class="small-12 small-centered medium-6 medium-centered large-4 large-centered columns">

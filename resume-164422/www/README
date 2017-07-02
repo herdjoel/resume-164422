@@ -24,6 +24,28 @@ TODO:
 15. Make links in Orbit have some kind of function
 16. Look into Flex by Foundation and other functions 
 
+    1. use localstorage in online portfolio to keep track of the person’s name who is using the site, and also find a way to send that name to the server side for my personal use 
+    2. Website: Anonymous comments/contact me, website/business card request (Do you want a free website under your name/desired domain? Fill out a request form!)
+    3. Use "Details" link to minimize initial description, and leave space for more in detail explanations 
+    4. Add subscribe function?
+    5. Put AjaxPromise Code into JS template 
+    6. Put adsense onto personal projects pages
+    7. https://www.yelp.com/developers/documentation/v2/search_api
+    8. https://developers.google.com/maps/documentation/javascript/mysql-to-maps
+    9. https://loading.io/animation/
+    10. Transition from Cloud9 to JSBin, CodePen, JSFiddle…
+    11. React.js? ReactNative.js? Node.js? Angular.js?
+    12. make website for zaya
+    13. Unix Shell (get rid of bash)
+    14. Run PHP Web Service in Apache (or ubuntu?, same thing?, my website)
+    15. put response to name input in quotes on my webpage (include a portion that says something like “i guess we don’t need to talk about names”, and make a way to track the names that are input)’
+    16. design really good front-end webpage based on info 343 lecture notes, try to find info 344 stuff 
+    17. my website: Key logger web service? “login” web service with innocent questions?
+    18. Write web services in .NET using visual studio (free version online)
+    19. Visual Studio and C# for Web Services (XCode?)
+    20. Experience in developing ASP.NET Web Forms, MVC 4.0 or greater, WCF, Web API, ASP.NET Web Service Projects
+    21. include fb comments section for my personal projects (Start with one for the application?)
+
 Web Application Development Experience (HTML/CSS/Javascript/Ajax)
 Designing Web Services (Php/JSON)
 Script writing Experience (Python/SQL)

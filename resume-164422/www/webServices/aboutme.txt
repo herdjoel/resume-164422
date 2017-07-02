@@ -26,5 +26,4 @@
         Thank you again for taking the time to look through my portfolio, and I hope to exceed your expectations!
     </p>
     <span class="inTextBlock"></span>
-    <p><span class="quote">"Nothing in life get's easier. We only train ourselves how to overcome."</span></p>
 </section>

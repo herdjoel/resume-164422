@@ -24,5 +24,4 @@
     <a href="https://www.washington.edu/students/crscat/econ.html#econ200" target="_blank">Introduction to Microeconomics</a><br/>
     <a href="https://www.washington.edu/students/crscat/biology.html#biol180" target="_blank">Introductory Biology</a><br/>
     <span class="inTextBlock"></span>
-    <p><span class="quote">"Nothing in life get's easier. We only train ourselves how to overcome."</span></p>
 </section>
