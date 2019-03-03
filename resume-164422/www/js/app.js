@@ -61,7 +61,7 @@ Date: 3/2/2019
             filename = "education.txt";
         } else if (section === "Experience") {
             filename = "experience.txt";
-        } else if (section === "Projects") {
+        } else if (section === "Other Exp") {
             filename = "personalprojects.txt";
         }
         $("welcomeText").classList.add("hidden");
