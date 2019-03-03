@@ -1,3 +1,9 @@
+/*
+Author: Joel Herd
+Class: CS 290_400 Winter 2019 
+Date: 3/2/2019
+*/
+
 (function() {
     "use strict";
     
@@ -26,22 +32,12 @@
     var START_STOP_RAF;
 
     window.onload = function() {
-        $("enterButton").addEventListener("click", function(event){
-            event.preventDefault();
-            clickFunction();
-        });
         qs("#enterPortfolio a").onclick = enterPortfolio;
         
         var menuOptions = qsa(".menu-fancy a");
         for (var i = 0; i < menuOptions.length; i++) {
             menuOptions[i].onclick = navClick;
         }
-        // var sliderImg = qsa("#CustomSlider img");
-        // sliderImg[0].onclick = 
-        // sliderImg[1].onclick = 
-        // sliderImg[2].onclick = 
-        // sliderImg[3].onclick = 
-        // sliderImg[4].onclick = 
         
         // End page loading screen
         $("loadingScreen").classList.add("hidden");
@@ -51,32 +47,7 @@
     function enterPortfolio() {
         $("enterProjects").classList.add("hidden");
         $("enterPortfolio").classList.add("hidden");
-        $("inputArea").classList.remove("hidden");
-        $("welcomeText").innerHTML = "\"<em>Momma always told me not to talk to strangers...</em>\"";
-    }
-    
-    function clickFunction() {
-        var name = $("enterName").value;
-        var welcome = "Well";
-        var nameFinal = "";
-        if (name.length > 0) {
-            if (name.indexOf(' ') == -1) {
-                nameFinal = name.charAt(0).toUpperCase() + name.substring(1).toLowerCase();
-            } else {
-                var splitName = name.split(' ');
-                for (var i = 0; i < splitName.length; i++) {
-                    if (i > 0)
-                        nameFinal += " ";
-                    nameFinal += splitName[i].charAt(0).toUpperCase() + splitName[i].substring(1).toLowerCase(); 
-                }
-            }
-            welcome += " ";
-        }
-        welcome += nameFinal + ", I guess we ain't strangers no more!";
-        
-        $("welcomeText").innerHTML = welcome;
-        $("inputArea").classList.add("hidden");;
-        localStorage.setItem("globalName", nameFinal);
+        $("welcomeText").classList.add("hidden");
         qs(".menu-fancy").classList.remove("hidden");
     }
     
@@ -99,7 +70,7 @@
     }
     
     function updateContent(filename) {
-        var filenamePromise = new AjaxGetPromise("webServices/" + filename);
+        var filenamePromise = new AjaxGetPromise("contentBlocks/" + filename);
         
         filenamePromise
             .then(loadContent)
