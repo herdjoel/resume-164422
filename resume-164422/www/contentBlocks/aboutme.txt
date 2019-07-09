@@ -1,0 +1,31 @@
+<section>
+    <h1 id="title">Cover Letter</h1>
+    <p>
+        Thank you for taking your time to learn more about me. I am hoping that through my portfolio I can give you a glimpse into the work I do and my passion for Application Development and Data Engineering.
+    </p>
+    <h4>1. Application Development</h4>
+    <p>
+        I love the idea of creating easy-to-use powerful tools that can enhance workflows and insight. I find my career satisfaction in knowing that I can impact the productivity and efficiency of others in the workplace through customized applications that cater to their needs. Having worked in the customer service industry for 10 years, I enjoy taking care of my users through face-to-face interactions and dedicated continued support. I always stay very flexible with business requirements and seek out the most effective solutions that provide the most benefit to the user. I do my best to engage in the design process and contribute ideas that simplify and naturalize the user experience. 
+    </p>
+    <h4>2. Data Engineering</h4>
+    <p>
+        I enjoy taking on projects that challenge me and require a whiteboard to map out a web of dependencies. Often times I deal with data that exists on multiple platforms in every incompatible format imaginable. At face value, it seems like a hopeless task that would have a runtime longer than my career, but it's these kinds of projects that I experience the most rewarding breakthroughs. In the world of data engineering, it is all too easy to get lazy, brute-force a solution that 'just works', and let the runtime face the consequence of bad design. For me personally, I take great pride in every process I develop because I know that I have taken the project to the whiteboard first and designed the most elegant solution that leverages every efficiency-boosting technique I can employ. 
+    </p>
+    <h3>There are a few important qualities to my character I would like you to know about:</h3>
+    <p>
+        1. <strong>I am a self-starter</strong>. I take ownership over projects immediately and dive head-in to analyze business requirements. I believe the sooner I can wrap my head around the entire project, the sooner I can begin contributing to designing the best solution, and consequently begin developing the solution quicker.  
+    </p>
+    <p>
+        2. <strong>I know how to work with a team</strong>. I understand how to insert myself into the dynamics of any team. I've contributed on all levels on various projects. I have never been unable to finish a project due to my ability to work with other team members and take great pride in my ability to spot the weaker areas of my team, and fill in as necessary.
+    </p>
+    <p>
+        3. <strong>I know how to divide and conquer a project to yield the best results</strong>. To me, the trick to building a stellar solution is breaking down the project into incremental tasks, and test each component independently before merging the components together. This is the fastest way to build a solution that exploits maximum quality from the bottom up. 
+    </p>
+    <p>
+        In conclusion, I am an ambitious hard worker. I aspire to deliver high quality, easy-to-use, scalable solutions. I love a good challenge and solving complex problems. I care as much for customer service and frequent requirement checks with our users as I do with building a solution that is well-tested and intuitively designed. 
+    </p>
+    <p>
+        Thank you again for taking the time to look through my portfolio!
+    </p>
+    <span class="inTextBlock"></span>
+</section>

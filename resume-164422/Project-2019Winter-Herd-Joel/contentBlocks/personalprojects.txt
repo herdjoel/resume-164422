@@ -1,0 +1,19 @@
+<section>
+    <h1 id="title">Other Experience</h1>
+    <span class="inTextBlock"></span>
+    <h2>Teaching English in South Korea</h2>
+    <p>
+        The first time I applied to the University of Washington, I wasn't accepted. I felt very defeated and wondered how I could ever keep up with my classmates. So, after a year of working three jobs, seven days a week, I moved to South Korea and taught English for two years. During that time, I also took languages classes at the nearby Korean Language Institute. I am not Korean and did not have any experience with the language before arriving, but by the time I left you might have thought I did. I was smooth in conversation and was proficient enough to survive on my own. This experience gave me a lot of confidence in myself, because I discovered how hard I could push myself and how much I could transform myself if I set my mind to it. 
+    </p>
+    <h2>Restaurant Experience</h2>
+    <p>
+        I got my first job in a restaurant when I was 16 years old. 10 years later, I finally hung up my apron and dedicated my life to my career as a developer, and never turned back. Since those early years working in restaurants, I have supported myself financially through all my endeavors and experiences. From my time saving up enough money in high school to pay for my own tennis lessons, to coming back from South Korea to UW Seattle and paying my way through school (with some help from financial aid) while living on my own in University District, I have paved my own path one entree at a time. Waiting on tables taught me how to challenge myself, and helped me realize that the harder I work, the more rewards will come my way. I also learned the true meaning of Customer Service and how to keep my cool under high pressure. 
+    </p>
+    <span class="inTextBlock"></span>
+</section>
+<div id="enterProjects" class="row collapse">
+	<div class="small-12 small-centered medium-6 medium-centered large-4 large-centered columns">
+		<h2>Check out some other stuff I've done!</h2>
+		<a href="personalprojects.html"><h2>Independent Projects</h2></a>
+	</div>
+</div>
