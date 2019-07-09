@@ -3,6 +3,11 @@
 <!--
 Created by Joel Herd; last edited 03.2019
 Found on: www.herdjoel.com
+
+Have a scroll box in one page. You can put text only or text with pictures inside the scroll box.  The scroll box should have something like a scroll bar to allow users rolling it up and down.
+** Include a scroll box onto Independent projects and paste a bunch of text into there??
+
+Form?!?!?
 -->
 
 <html>
@@ -19,69 +24,7 @@ Found on: www.herdjoel.com
 	</head>
 	<body>
 		<h1>Independent Projects Page!</h1>
-		<div class="inTextBlock"></div>
-		<div class="row collapse">
-			<div id="bottomNav" class="small-12 small-centered medium-6 medium-centered large-4 large-centered columns">
-				<ul class="menu menu-fancy">
-				    <li class="menu-fancy-option1"><a href="index.html">About</a></li>
-				    <li class="menu-fancy-option2"><a href="index.html">Education</a></li>
-				    <li class="menu-fancy-option3"><a href="index.html">Experience</a></li>
-				    <li class="menu-fancy-option4"><a href="index.html">Other Exp</a></li>
-				</ul>
-			</div>
-    	</div>
-	    <div class="inTextBlock"></div>
-		<div id="topControl">
-			<div class="row">
-				<div class="large-12 columns">
-			    	<h2 id="welcomeText"><em>Try Entering a City Name or Zip!</em></h2>
-			    </div>
-			</div>
-			<form id="inputArea">
-				<div class="row collapse">
-					<div class="small-8 small-centered columns">
-						<div class="input-group postfix-round">
-							<input id="enterName" class="input-group-field" type="text" placeholder="City or Zip" />
-							<div class="input-group-button">
-								<input id="enterButton" class="button postfix" value="Enter">
-							</div>
-				    	</div>
-			    	</div>
-		    	</div>
-	    	</form>
-	    	<div class="row">
-				<div class="large-12 columns">
-			    	<h2 id="responseText"><em>Response Here...</em></h2>
-			    </div>
-			</div>
-			<div class="inTextBlock"></div>
-	    	<div class="row">
-				<div class="large-12 columns">
-			    	<h2 id="welcomeText"><em>Scroll Box about Closures!</em></h2>
-			    </div>
-			</div>
-	    	<div class="row" style="height:120px;width:120px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-	    		Benefit of Closures: Because of Lexical Scoping, if we encapsulate functions within functions 
-				and return those inner functions, we can declare functions that retain information, and also
-				optimize the code so that the inner functions are not searching the outer (or worse, global) scope
-				for variables. Instead, they will have the information they need to perform the specific operation
-				we would like them to, with the efficiency of containing this information in the immediate outer
-				scope, which reduces the time it takes to search for that information. 
-	    	</div>
-	    </div>
 
-	    <div class="inTextBlock"></div>
-	    <hr>
-	    <a href="JoelHerdResume.docx" download>Download Resume</a>
-	    <div class="inTextBlock"></div>
-	    <div id="w3c">
-			<a href="https://webster.cs.washington.edu/validate-html.php">
-				<img src="https://webster.cs.washington.edu/images/w3c-html.png" alt="Valid HTML" /></a>
-			<a href="https://webster.cs.washington.edu/validate-css.php">
-				<img src="https://webster.cs.washington.edu/images/w3c-css.png" alt="Valid CSS" /></a>
-		</div>
-		<div class="inTextBlock"></div>
 		<script src="js/ajax-promise.js" type="text/javascript"></script>
-		<script src="js/personalProjs.js" type="text/javascript"></script>
 	</body>
 </html>
