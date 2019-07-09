@@ -1,0 +1,64 @@
+<section>
+    <h1 id="title">Seattle Information Technology Department (ITD), City of Seattle: GIS Software Developer</h1>
+    <p>March 2017 - Present</p>
+    <span class="inTextBlock"></span>
+    <h3>Conclusion of Experience</h3>
+    <img src="images/seattleLogo.png" alt="Image Error"><br/>
+    <p>
+        ASP.NET application development/support, Python ETL data processing and automated geoprocessing. 
+    </p>
+    <h2>Experience:</h2>
+    <h3>1. ASP.NET Application Development</h3>
+    <p>Description: Design, development, and support of Dashboards, Web Maps, and Information Tools using the ASP.NET MVC stack.</p>
+    <ul>
+        <li>GIS Dashboard: Dashboard used by Utility teams and Operations to maintain data integrity and track ETL processes.</li>
+        <li>Metadata Tool: Information tool used to research metadata on database tables and their change history.</li>
+        <li>Field Operations Management Support (FOMS): Web Map used by teams to track work orders while in the field.</li>
+    </ul>
+    <span class="inTextBlock"></span>
+    <h3>2. Python ETL data processing and automation of geoprocessing tasks</h3>
+    <p>Description: Supporting various applications through developing new ETL processes and maintenance of existing processes. Supported groups include:</p>
+    <ul>
+        <li>Seattle Public Utilities (SPU): Water, Drainage and Waste, and Utilities.</li>
+        <li>Seattle Department of Transportation (SDOT): Street Networks.</li>
+        <li>Seattle Department of Parks and Recreation (DPR): Parks and Green Infrastructure.</li>
+        <li>Green Stormwater Infrastructure (GSI): <a href="http://www.700milliongallons.org/" target="_blank">700 Million Gallons Project</a></li>
+    </ul>
+    <span class="inTextBlock"></span>
+</section>
+<section>
+    <h1 id="title">Concur Technologies: Software Developer Engineer in Test Intern</h1>
+    <p>June 2016 - August 2016</p>
+    <span class="inTextBlock"></span>
+    <h3>Conclusion of Experience</h3>
+    <img src="images/CIModel.png" alt="Image Error"><br/>
+    <p>
+        As an SDET Intern in the Expense Middle Tier (EMT), my main purpose was to improve the features of the EMT-CI (Continuous Integration) Pipeline by adding microservices to improve usability and access for developers.
+    </p>
+    <h2>Experience by Project:</h2>
+    <h3>1. Jenkins</h3>
+    <img src="images/Jenkins.png" alt="Image Error"><br/>
+    <p>
+        Description: Email alerts at kick off and completion of commits to GitHub through Jenkins with logs, synchronization of pipeline tests to return a compiled list of errors from unit, integration, and backward-compatability tests. 
+    </p>
+    <p>Purpose: Increase the usability and value of this tool to developers.</p>
+    <h3>2. E.L.K. Stack</h3>
+    <img src="images/ElasticSearchEndPointData.png" alt="Image Error"><br/>
+    <br>
+    <img src="images/ElasticSearch.png" alt="Image Error"><br/>
+    <p>Description: Elasticsearch, Logstash, and Kibana are platforms used for collecting, visualizing, and performing aggregations on data. I collected response times on calls to all endpoints we used in our tests to identify endpoints which had unusually long execution times. I dumped the data into Kibana, and created graphs demonstrating aggregations on these data.</p>
+    <p>Purpose: Expose signs of database degregation and/or infrastructure issues.</p>
+    <h3>3. ElastAlert</h3>
+    <img src="images/EmailAlert.png" alt="Image Error"><br/>
+    <br>
+    <img src="images/GitHubAlert.png" alt="Image Error"><br/>
+    <p>Description: Elastalert works in combination with the ELK stack, and triggers an alert based on a condition, which can then forward a message to platforms like GitHub, or by email.</p>
+    <p>Purpose: To increase the speed of addressing issues related to the ELK stack, and to make communication of these results more efficient.</p>
+
+    <!-- <p>*Put this text together*<br><br>I would like to explain in further detail the work I did at <a href="https://www.concur.com" target="_blank">Concur Technologies</a>. To the left is a screenshot of data incoming into the <a href="https://www.elastic.co" target="_blank">ElasticSearch</a> server, visualized in <a href="https://www.elastic.co/products/kibana" target="_blank">Kibana</a>. I collected millisecond timed ping-responses for all of the endpoints in the Expense Middle Tier Continuous Integration Pipeline. As you can see, there is a date, time, pull request number (ID; PR's were done through <a href="https://jenkins.io" target="_blank">Jenkins</a>), the name of the endpoint, and the latency data (in miliseconds). And on the right, is the plotted data, also visualized in Kibana. We were able to aggregate the data and find the most resource consuming endpoints. The reason I listed this under statistics is because I created an alerting system using <a href="https://github.com/Yelp/elastalert" target="_blank">Yelp's ElastAlert Platform</a> (scripted in Python), and took three standard deviations above the mean of every endpoint, and whenever we got latency data that exceeded that threshold, an alert would be sent to the developer, their manager, and our SDET team through Email and on GitHub. Refer to the <a href="#webservices">WebServices section</a> for additional information on my internship as an SDET.</p>
+    <p>I am not entirely sure if my work adding features to the EMT-CI Pipeline counts as work with Web Services. The features I added include: Email alerts to developers if their pull requests failed (including the console log, top right screenshot), redesigning the pipeline to run all tests before failing (it used to just abort the pull request at the first failed test, which would prevent us from knowing all the points of failure due to code change/infrastructure), and I helped implement a backwards compatibility feature which tested all of the parameters of past versions against current ones. I spent most of my time working with Jenkins (1.6 I believe, top left screenshot), and implemented lots of scripts in Bash/Shell. I also wrote a script from ElastAlert (in Python) which sent a message to the developer through GitHub (bottom left screenshot). These may count as web service experiences, but I'm not sure if it's exactly what you're looking for. But I hope my experience proves that I may have some insight about using third-party products and reading documentation. The bottom right screenshot came from my final presentation at the end of my internship where I explained my contribution to the CI-Pipeline.</p>
+    <p>Besides learning about XML and JSON during my coursework to gain my certificate in Database Management, I had the opportunity to use JSON during my internship at Concur Technologies. The latency data we logged from all the pull requests were turned into JSON format for transfer to ElasticSearch. My mentor was strongly against me using <a href="https://www.elastic.co/products/logstash" target="_blank">LogStash</a> (a platform which has great integration plugins with GitHub, Jenkins, and ElasticSearch), so I had to create a JSON file from the test code, print out the test data as a String into a file (Java), and then at the end of the test I wrote a Bash/Shell script that bulk imported the data into ElasticSearch.
+    </p> -->
+
+    <span class="inTextBlock"></span>
+</section>

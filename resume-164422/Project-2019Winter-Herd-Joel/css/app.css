@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+@-webkit-keyframes slidy {
+0% { left: 0%; }
+25% { left: -100%; }
+50% { left: -200%; }
+75% { left: -300%; }
+100% { left: -400%; }
+}
+
+@-moz-keyframes slidy {
+0% { left: 0%; }
+25% { left: -100%; }
+50% { left: -200%; }
+75% { left: -300%; }
+100% { left: -400%; }
+}
+
+@-o-keyframes slidy {
+0% { left: 0%; }
+25% { left: -100%; }
+50% { left: -200%; }
+75% { left: -300%; }
+100% { left: -400%; }
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+25% { left: -100%; }
+50% { left: -200%; }
+75% { left: -300%; }
+100% { left: -400%; }
+}
+
+html, body {
+    overflow-x: hidden !important;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin: 0;
+    text-align: center;
+    background: #e0e0eb;
+    background: -webkit-radial-gradient(circle, #005266, #e0e0eb);
+    background: -o-radial-gradient(circle, #005266, #e0e0eb);
+    background: -moz-radial-gradient(circle, #005266, #e0e0eb);
+    background: radial-gradient(circle, #005266, #e0e0eb);
+}
+
+.large-12 {
+    padding: 0;
+}
+
+h1, h2 {
+    font-size: 24pt;
+    text-align: center;
+    padding: 0;
+}
+
+#CustomSlider {
+    max-height: 24rem;
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    width: 600%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    -webkit-animation: slidy 30s infinite; 
+    -moz-animation: slidy 30s infinite;
+    -o-animation: slidy 30s infinite; 
+    animation: slidy 30s infinite; 
+    animation-fill-mode: forwards;
+}
+
+#CustomSlider div {
+    width: 25%;
+    left: 0;
+    position: relative;
+    max-height: 20rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#CustomSlider img {
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    border-radius: .5rem;
+}
+
+#CustomSlider a {
+    font-size: 1rem;
+    max-height: 100%;
+    height: auto;
+    width: 100%;
+    min-height: 48px;
+    margin: 0;
+}
+
+a {
+    color: #4db8ff; 
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+a:visited {
+    color:#00b300;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BA55D3;
+    font-weight: bold;
+}
+
+#enterName {
+    width: 100%;
+    font-size: 16pt;
+    border-radius: .25rem;
+    opacity: 0.8;
+    padding: 0;
+}
+
+#enterName:hover {
+    opacity: 0.9;
+}
+
+#enterButton {
+    opacity: 0.7;
+    border-radius: .25rem;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    padding: .70rem;
+}
+
+#enterButton:hover {
+    opacity: 1;
+}
+
+.inTextBlock {
+    display: block;
+    height: 3rem;
+    width: 100%;
+}
+
+.menu-fancy li {
+    position: relative;
+    width: 25%;
+}
+
+.menu-fancy li a {
+    color: #6666ff;
+    text-shadow: 1px 1px black;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.menu-fancy li:after,
+.menu-fancy li:before,
+.menu-fancy a:before,
+.menu-fancy a:after {
+    position: absolute;
+    content: '';
+    border-radius: 4px;
+}
+
+.menu-fancy li:after,
+.menu-fancy li:before {
+  bottom: 0px;
+  height: 6px;
+}
+
+.menu-fancy li:before {
+    left: 0px;
+    right: 0px;
+}
+
+.menu-fancy .menu-fancy-option1 a:hover,
+.menu-fancy .menu-fancy-option1 a {
+    color: #3adb76;
+}
+
+.menu-fancy .menu-fancy-option1:after,
+.menu-fancy .menu-fancy-option1:before,
+.menu-fancy .menu-fancy-option1 a:after,
+.menu-fancy .menu-fancy-option1 a:before {
+    background-color: #3adb76;
+}
+
+.menu-fancy .menu-fancy-option2 a:hover,
+.menu-fancy .menu-fancy-option2 a{
+    color: #cc4b37;
+}
+
+.menu-fancy .menu-fancy-option2:after,
+.menu-fancy .menu-fancy-option2:before,
+.menu-fancy .menu-fancy-option2 a:after,
+.menu-fancy .menu-fancy-option2 a:before {
+    background-color: #cc4b37;
+}  
+
+.menu-fancy .menu-fancy-option3 a:hover.
+.menu-fancy .menu-fancy-option3 a{
+    color: #1779ba;
+}
+
+.menu-fancy .menu-fancy-option3:after,
+.menu-fancy .menu-fancy-option3:before,
+.menu-fancy .menu-fancy-option3 a:after,
+.menu-fancy .menu-fancy-option3 a:before {
+    background-color: #1779ba;
+}
+
+.menu-fancy .menu-fancy-option4 a:hover,
+.menu-fancy .menu-fancy-option4 a{
+    color: #ffae00;
+}
+
+.menu-fancy .menu-fancy-option4:after,
+.menu-fancy .menu-fancy-option4:before,
+.menu-fancy .menu-fancy-option4 a:after,
+.menu-fancy .menu-fancy-option4 a:before {
+    background-color: #ffae00;
+}
+
+.hidden {
+  display: none;
+}
